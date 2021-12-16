@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Final</string>
+    <string name="home">Home</string>
+    <string name="search_food_nearby">Search food nearby</string>
+    <string name="_21_42_34_banjara_hills_hyder">21-42-34, Banjara Hills, Hyder....</string>
+    <string name="select_preferences">Select Preferences</string>
+    <string name="for_multiple_users">For multiple users.</string>
+    <string name="your_preferences">Your Preferences</string>
+    <string name="edit">Edit</string>
+    <string name="now_order">Now order user specific food directly below!</string>
+    <string name="user_1">User 1</string>
+    <string name="user_2">User 2</string>
+    <string name="user_3">User 3</string>
+    <string name="user_4">User 4</string>
 </resources>
