@@ -5,10 +5,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        app:layoutDescription="@xml/activity_animation_xml_constraintlayout_scene"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -147,16 +149,17 @@
 
 
         <ImageView
+            android:id="@+id/buo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/buo"
-            app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
             app:srcCompat="@drawable/component_1" />
 
         <LinearLayout
+            android:id="@+id/linearLayout4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -193,5 +196,5 @@
                 app:srcCompat="@drawable/edit" />
         </LinearLayout>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.motion.widget.MotionLayout>
 </ScrollView>

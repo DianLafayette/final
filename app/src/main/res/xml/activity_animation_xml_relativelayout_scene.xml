@@ -23,5 +23,14 @@
             motion:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="10dp"
             android:id="@+id/s" />
+        <Constraint
+            android:layout_height="wrap_content"
+            motion:layout_constraintTop_toTopOf="@+id/imageView"
+            android:layout_width="wrap_content"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="15dp"
+            android:id="@+id/s1"
+            motion:layout_constraintBottom_toTopOf="@+id/s"
+            motion:layout_constraintTop_toBottomOf="@+id/s" />
     </ConstraintSet>
 </MotionScene>
